@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_devopsquad_Calculator_1762542150422-push-trigger-input-set
+  identifier: Build_devopsquad_Calculator_1762542150422pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_devopsquad_Calculator_1762542150422
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
